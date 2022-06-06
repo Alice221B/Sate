@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>flamekamin.ru</title>
+        <link rel="stylesheet" href="Main.css">
+        <meta name="viewport" content="width=device-width">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    </head>
+    <body class="body">
+        <!--Шапка-->
+        <header class="header">
+            <div class="header1">
+                <img class="vector1" title="1.svg" src="img/svg/1.svg" alt="1.svg">
+                <div class="text1">Ваш город: Константинополь</div>
+                <img class="vector3" title="2.svg" src="img/svg/2.svg" alt="2.svg">
+                <img class="vector2" title="1.svg" src="img/svg/1.svg" alt="1.svg">
+                <div class="text2">Наш офис: Москва, ул. Новокосимская д.7</div>
+                <a class="text3" href="#">Статьи</a>
+                <a class="text4" href="#">Оплата</a>
+                <a class="text4" href="#">Гарантия</a>
+                <a class="text4" href="#">Дилерам</a>
+                <a class="text4" href="#">Вакансии</a>
+
+                <!--Телефон-->
+                <input type="text" placeholder="Поиск по каталогу..." required>
+                <img class="vector9" title="t2.svg" src="img/svg/t2.svg" alt="t2.svg">
+                <div class="tpl_hamburger" id="sandwichmenu">
+                    <svg viewBox="0 0 800 600">
+                        <path d="M300,220 C300,220 520,220 540,220 C740,220 640,540 520,420 C440,340 300,200 300,200" class="top"></path>
+                        <path d="M300,320 L540,320" class="middle"></path>
+                        <path d="M300,210 C300,210 520,210 540,210 C740,210 640,530 520,410 C440,330 300,190 300,190" class="bottom" transform="translate(480, 320) scale(1, -1) translate(-480, -318) "></path>
+                    </svg>
+                </div>
+                <div class="js_menu">
+                    <a href="#">Каталог</a>
+                    <a href="#">Акции</a>
+                    <a href="#">Новости</a>
+                </div> 
+            </div>
+            
+            <div class="header2">
+                <div class="grid">
+                    <h1></h1>
+                </div>
+                <div class="grid">
+                    <a href="Main.html">
+                        <img class="rec1" title="3.svg" src="img/svg/3.svg" alt="3.svg">
+                        <img class="rec2" title="4.svg" src="img/svg/4.svg" alt="4.svg">
+                        <img class="rec2" title="5.svg" src="img/svg/5.svg" alt="5.svg">
+                        <div class="text5">Логотип вашего магазина</div>
+                    </a>
+                    
+                </div>
+                <div class="grid">
+                    <img class="vector4" title="6.svg" src="img/svg/6.svg" alt="6.svg">
+                    <div class="text6">Лучшие цены</div>
+                    <img class="vector5" title="6.svg" src="img/svg/6.svg" alt="6.svg">
+                    <div class="text7">Бесплатная доставка</div>
+                    <img class="vector5" title="6.svg" src="img/svg/6.svg" alt="6.svg">
+                    <div class="text7">Гарантия от 3х лет</div>
+                    <img class="vector5" title="6.svg" src="img/svg/6.svg" alt="6.svg">
+                    <div class="text7">Более 1000 товаров</div>
+                    <div class="stroka">
+                        <form>
+                            <input type="text" placeholder="Поиск по каталогу..." required>
+                            <button type="submit">Найти
+                                <span class="tooltiptext">Жмак</span>
+                            </button>
+                            
+                        </form>
+                    </div>
+                </div>
+                <div class="grid">
+                    <img class="vector6" title="7.svg" src="img/svg/7.svg" alt="7.svg">
+                    <div class="text7">Ежедневно с 9:00 до 21:00</div>
+                    <div class="text8">8 (000)</div><div class="text9">800-00-00</div>
+                    <div class="text8">8 (495)</div><div class="text9">700-00-00</div>
+                </div>
+                <div class="grid">
+                    <img class="vector7" title="8.svg" src="img/svg/8.svg" alt="8.svg">
+                    <div class="text10">youremail@mailbox.ru</div>
+                    <form>
+                        <button class="btn" type="submit">Заказать звонок</button>
+                    </form>
+                </div>
+            </div>
+            
+            <!--Менюшка-->
+            <div class="menu">
+                <div></div>
+                <div class="m1">
+                    <img class="img" title="9.svg" src="img/svg/9.svg" alt="9.svg">
+                    <div><a href="#">Каталог товаров</a></div> 
+                </div>
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">О компании</button>
+                    <div id="myDropdown" class="dropdown-content">
+                      <a href="#">Link 1</a>
+                      <a href="#">Link 2</a>
+                      <a href="#">Link 3</a>
+                    </div>
+                  </div>
+                <div class="m2"><a href="#">Отзывы</a></div>
+                <div class="m2"><a href="#">Наши работы</a></div>
+                <div class="m2"><a href="#">Доставка</a></div>
+                <div class="m2"><a href="#">Контакты</a></div>
+                <!--Телефон-->
+                <div class="m5">
+                    <img title="t5.svg" src="img/svg/t5.svg" alt="t5.svg">
+                    <h2><a href="#">Каталог товаров</a></h2>
+                </div>
+                <div class="mg"></div>
+            </div>
+
+            <!--Баннер-->
+            <div class="banner">
+                <div class="slider">
+  	                <div class="item">
+                        <img src="img/png/1.png" alt="Первый слайд">
+                    </div>
+
+                    <div class="item">
+                        <img src="img/jpg/slide1.jpg" alt="Второй слайд">
+                    </div>
+
+                    <div class="item">
+                        <img src="img/jpg/slide2.jpg" alt="Третий слайд">
+                    </div>
+
+                    <div class="item">
+                        <img src="img/jpg/slide3.jpg" alt="Третий слайд">
+                    </div>
+
+  	                <a class="prev" onclick="minusSlide()">&#10094;</a>
+  	                <a class="next" onclick="plusSlide()">&#10095;</a>
+                </div>
+            </div>
+        </header>
+        
+        <!--Идеи-->
+        <div class="idei">
+            <div class="i1">
+                <img title="Icon.svg" src="img/svg/Icon1.svg" alt="Icon1.svg">
+                <div>Изготовливаем конструкции по вашему дизайн-проекту</div>
+            </div>
+            <div class="i1">
+                <img title="Icon2.svg" src="img/svg/Icon2.svg" alt="Icon2.svg">
+                <div>Изготовили более 2 400 деревянных конструкций</div>
+            </div>
+            <div class="i1">
+                <img title="Icon3.svg" src="img/svg/Icon3.svg" alt="Icon3.svg">
+                <div>Собственное производство площадью 6 000 м2</div>
+            </div>
+            <div class="i1">
+                <img title="Icon4.svg" src="img/svg/Icon4.svg" alt="Icon4.svg">
+                <div>Производим изделия из дерева с 1998 года</div>
+            </div>
+            <div class="i2">
+                <img title="Icon5.svg" src="img/svg/Icon5.svg" alt="Icon5.svg">
+                <div>Гарантия от 3х лет на все конструкции</div>
+            </div>
+            <!--Телефон-->
+            <div class="i3">
+                <img title="tIcon.svg" src="img/svg/tIcon.svg" alt="tIcon.svg">
+                <div>Изготовливаем конструкции по вашему дизайн-проекту</div>
+            </div>
+            <div class="i3">
+                <img title="tIcon1.svg" src="img/svg/tIcon1.svg" alt="tIcon1.svg">
+                <div>Изготовили более 2 400 деревянных конструкций</div>
+            </div>
+            <div class="i3">
+                <img title="tIcon2.svg" src="img/svg/tIcon2.svg" alt="tIcon2.svg">
+                <div>Собственное производство площадью 6 000 м2</div>
+            </div>
+            <div class="i3">
+                <img title="tIcon3.svg" src="img/svg/tIcon3.svg" alt="tIcon3.svg">
+                <div>Гарантия от 3х лет на все конструкции</div>
+            </div>
+        </div>
+
+        <!--Категории-->
+        <div class="category">
+            <h2 class="naz">Категории</h2>
+            <div class="container">
+                <div class="container1">
+                    <h3 class="naz1">Беседки</h3>
+                    <ul>
+                        <li class="dt"><a href="#">Подкатегория 1</a></li>
+                        <li class="dt"><a href="#">Подкатегория 2</a></li>
+                        <li class="dt"><a href="#">Подкатегория 3</a></li>
+                    </ul>
+                    <ul>
+                        <li class="dt1"><a href="#">Подкатегория 4</a></li>
+                        <li class="dt1"><a href="#">Подкатегория 5</a></li>
+                        <li class="dt1"><a href="#">Подкатегория 6</a></li>
+                    </ul>
+                    <img class="img7" title="Grass.png" src="img/png/Grass.png" alt="Grass.png">
+                    <img class="img6" title="Besedka.png" src="img/png/Besedka.png" alt="Besedka.png">
+                </div>
+                <div class="container2">
+                    <div class="c">
+                        <img class="img9" title="Grass1.png" src="img/png/Grass1.png" alt="Grass1.png">
+                        <img class="img10" title="Bany.png" src="img/png/Bany.png" alt="Bany.png">
+                        <h3 class="naz2">Бани</h3>
+                        <ul>
+                            <li class="dt2"><a href="#">Подкатегория 1</a></li>
+                            <li class="dt2"><a href="#">Подкатегория 2</a></li>
+                            <li class="dt2"><a href="#">...</a></li>
+                        </ul>
+                    </div>
+                    <div class="c">
+                        <img class="img9" title="Grass1.png" src="img/png/Grass1.png" alt="Grass1.png">
+                        <img class="img10" title="Pergola.png" src="img/png/Pergola.png" alt="Pergola.png">
+                        <h3 class="naz2">Перголы</h3>
+                        <ul>
+                            <li class="dt2"><a href="#">Подкатегория 1</a></li>
+                            <li class="dt2"><a href="#">Подкатегория 2</a></li>
+                            <li class="dt2"><a href="#">...</a></li>
+                        </ul>
+                    </div>
+                    <div class="c">
+                        <img class="img9" title="Grass1.png" src="img/png/Grass1.png" alt="Grass1.png">
+                        <img class="img10-1" title="Star.png" src="img/png/Star.png" alt="Star.png">
+                        <h3 class="naz2">Бренды</h3>
+                        <ul>
+                            <li class="dt2"><a href="#">Подкатегория 1</a></li>
+                            <li class="dt2"><a href="#">Подкатегория 2</a></li>
+                            <li class="dt2"><a href="#">...</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="container3">
+                    <div class="c1">
+                        <img class="img11" title="Grass2.png" src="img/png/Grass2.png" alt="Grass2.png">
+                        <img class="img12" title="Gorka.png" src="img/png/Gorka.png" alt="Gorka.png">
+                        <h3 class="naz2">Десткие площадки</h3>
+                        <ul>
+                            <li class="dt2"><a href="#">Подкатегория 1</a></li>
+                            <li class="dt2"><a href="#">Подкатегория 2</a></li>
+                            <li class="dt2"><a href="#">Подкатегория 3</a></li>
+                            <li class="dt2"><a href="#">Подкатегория 4</a></li>
+                            <li class="dt2"><a href="#">Подкатегория 5</a></li>
+                        </ul>
+                    </div>
+                    <div class="c1">
+                        <img class="img11-1" title="Grass2.png" src="img/png/Grass2.png" alt="Grass2.png">
+                        <img class="img12-1" title="House.png" src="img/png/House.png" alt="House.png">
+                        <h3 class="naz2">Дома</h3>
+                        <ul>
+                            <li class="dt2"><a href="#">Подкатегория 1</a></li>
+                            <li class="dt2"><a href="#">Подкатегория 2</a></li>
+                            <li class="dt2"><a href="#">Подкатегория 3</a></li>
+                            <li class="dt2"><a href="#">Подкатегория 4</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--Телефон-->
+                <div class="t-c">
+                    <img class="t-img5" title="Besedka.svg" src="img/svg/Besedka.svg" alt="Besedka.svg">
+                    <h2><a href="#">Беседки</a></h2>
+                </div>
+                <div class="t-c">
+                    <img class="t-img4" title="Grass.svg" src="img/svg/Grass.svg" alt="Grass.svg">
+                    <img class="t-img3" title="tStar.svg" src="img/svg/tStar.svg" alt="tStar.svg">
+                    <h2><a href="#">Дома</a></h2>
+                </div>
+                <div class="t-c">
+                    <img class="t-img5" title="Gorka.svg" src="img/svg/Gorka.svg" alt="Gorka.svg">
+                    <h2><a href="#">Площадки</a></h2>
+                </div>
+                <div class="t-c">
+                    <img class="t-img5" title="Pergola.svg" src="img/svg/Pergola.svg" alt="Pergola.svg">
+                    <h2><a href="#">Перголы</a></h2>
+                </div>
+                <div class="t-c">
+                    <img class="t-img5" title="Bany.svg" src="img/svg/Bany.svg" alt="Bany.svg">
+                    <h2><a href="#">Бани</a></h2>
+                </div>
+                <div class="t-c">
+                    <img class="t-img4" title="Grass.svg" src="img/svg/Grass.svg" alt="Grass.svg">
+                    <img class="t-img3" title="tStar.svg" src="img/svg/tStar.svg" alt="tStar.svg">
+                    <h2><a href="#">Бренды</a></h2>
+                </div>
+            </div>
+        </div>
+
+        <!--Товары-->
+        <div class="tovary">
+            <h2 class="naz3">Хиты продаж</h2>
+            
+            <div class="tabs">
+                <ul class="tabs__caption">
+                  <li class="active">Беседки</li>
+                  <li>Бани</li>
+                  <li>Площадки</li>
+                  <li>Дома</li>
+                  <li>Перголы</li>
+                  <li>Бренды</li>
+                </ul>
+              
+                <div class="tabs__content  active">
+                    <div class="tovars">
+                        <div class="tovar">
+                            <div>
+                                <img class="img13" title="2.png" src="img/png/2.png" alt="2.png">
+                            </div>
+                            <div class="txt">
+                                <div class="tx">Артикул</div><div class="tx1">0000001</div>
+                                <div class="tx-1">Название товара длинное в две строки наверное</div>
+                                <ul class="ul">
+                                    <li><img class="im" title="V1.svg" src="img/svg/V1.svg" alt="V1.svg">Размеры:<span class="value">12.3 x 14.6 x 4.3 м</span></li>
+                                    <li><img class="im" title="V2.svg" src="img/svg/V2.svg" alt="V2.svg">Площадь:<span class="value">33 м2</span></li>
+                                    <li><img class="im" title="V3.svg" src="img/svg/V3.svg" alt="V3.svg">Вместимость:<span class="value">15 чел</span></li>
+                                    <li><img class="im" title="V4.svg" src="img/svg/V4.svg" alt="V4.svg">Гарантия:<span class="value">10 лет</span></li>
+                                </ul>
+                                <button class="btn1">Купить</button>
+                                <img class="im1" title="Sales.svg" src="img/svg/Sales.svg" alt="Sales.svg">
+                                <div class="tx-2">6 127 500 ₽</div>
+                                <div class="tx-3">5 023 900 ₽</div>
+                            </div>
+                        </div>
+                        <div class="tovar">
+                            <div>
+                                <img class="img13" title="2.png" src="img/png/2.png" alt="2.png">
+                            </div>
+                            <div class="txt">
+                                <div class="tx">Артикул</div><div class="tx1">0000001</div>
+                                <div class="tx-1">Название товара длинное в две строки наверное</div>
+                                <ul class="ul">
+                                    <li><img class="im" title="V1.svg" src="img/svg/V1.svg" alt="V1.svg">Размеры:<span class="value">12.3 x 14.6 x 4.3 м</span></li>
+                                    <li><img class="im" title="V2.svg" src="img/svg/V2.svg" alt="V2.svg">Площадь:<span class="value">33 м2</span></li>
+                                    <li><img class="im" title="V3.svg" src="img/svg/V3.svg" alt="V3.svg">Вместимость:<span class="value">15 чел</span></li>
+                                    <li><img class="im" title="V4.svg" src="img/svg/V4.svg" alt="V4.svg">Гарантия:<span class="value">10 лет</span></li>
+                                </ul>
+                                <button class="btn1">Купить</button>
+                                <img class="im1" title="Sales.svg" src="img/svg/Sales.svg" alt="Sales.svg">
+                                <div class="tx-2">6 127 500 ₽</div>
+                                <div class="tx-3">5 023 900 ₽</div>
+                            </div>
+                        </div>
+                        <div class="tovar">
+                            <div>
+                                <img class="img13" title="2.png" src="img/png/2.png" alt="2.png">
+                            </div>
+                            <div class="txt">
+                                <div class="tx">Артикул</div><div class="tx1">0000001</div>
+                                <div class="tx-1">Название товара длинное в две строки наверное</div>
+                                <ul class="ul">
+                                    <li><img class="im" title="V1.svg" src="img/svg/V1.svg" alt="V1.svg">Размеры:<span class="value">12.3 x 14.6 x 4.3 м</span></li>
+                                    <li><img class="im" title="V2.svg" src="img/svg/V2.svg" alt="V2.svg">Площадь:<span class="value">33 м2</span></li>
+                                    <li><img class="im" title="V3.svg" src="img/svg/V3.svg" alt="V3.svg">Вместимость:<span class="value">15 чел</span></li>
+                                    <li><img class="im" title="V4.svg" src="img/svg/V4.svg" alt="V4.svg">Гарантия:<span class="value">10 лет</span></li>
+                                </ul>
+                                <button class="btn1">Купить</button>
+                                <img class="im1" title="Sales.svg" src="img/svg/Sales.svg" alt="Sales.svg">
+                                <div class="tx-2">6 127 500 ₽</div>
+                                <div class="tx-3">5 023 900 ₽</div>
+                            </div>
+                        </div>
+                        <div class="tovar">
+                            <div>
+                                <img class="img13" title="2.png" src="img/png/2.png" alt="2.png">
+                            </div>
+                            <div class="txt">
+                                <div class="tx">Артикул</div><div class="tx1">0000001</div>
+                                <div class="tx-1">Название товара длинное в две строки наверное</div>
+                                <ul class="ul">
+                                    <li><img class="im" title="V1.svg" src="img/svg/V1.svg" alt="V1.svg">Размеры:<span class="value">12.3 x 14.6 x 4.3 м</span></li>
+                                    <li><img class="im" title="V2.svg" src="img/svg/V2.svg" alt="V2.svg">Площадь:<span class="value">33 м2</span></li>
+                                    <li><img class="im" title="V3.svg" src="img/svg/V3.svg" alt="V3.svg">Вместимость:<span class="value">15 чел</span></li>
+                                    <li><img class="im" title="V4.svg" src="img/svg/V4.svg" alt="V4.svg">Гарантия:<span class="value">10 лет</span></li>
+                                </ul>
+                                <button class="btn1">Купить</button>
+                                <img class="im1" title="Sales.svg" src="img/svg/Sales.svg" alt="Sales.svg">
+                                <div class="tx-2">6 127 500 ₽</div>
+                                <div class="tx-3">5 023 900 ₽</div>
+                            </div>
+                        </div>
+                        <div class="tovar">
+                            <div>
+                                <img class="img13" title="2.png" src="img/png/2.png" alt="2.png">
+                            </div>
+                            <div class="txt">
+                                <div class="tx">Артикул</div><div class="tx1">0000001</div>
+                                <div class="tx-1">Название товара длинное в две строки наверное</div>
+                                <ul class="ul">
+                                    <li><img class="im" title="V1.svg" src="img/svg/V1.svg" alt="V1.svg">Размеры:<span class="value">12.3 x 14.6 x 4.3 м</span></li>
+                                    <li><img class="im" title="V2.svg" src="img/svg/V2.svg" alt="V2.svg">Площадь:<span class="value">33 м2</span></li>
+                                    <li><img class="im" title="V3.svg" src="img/svg/V3.svg" alt="V3.svg">Вместимость:<span class="value">15 чел</span></li>
+                                    <li><img class="im" title="V4.svg" src="img/svg/V4.svg" alt="V4.svg">Гарантия:<span class="value">10 лет</span></li>
+                                </ul>
+                                <button class="btn1">Купить</button>
+                                <img class="im1" title="Sales.svg" src="img/svg/Sales.svg" alt="Sales.svg">
+                                <div class="tx-2">6 127 500 ₽</div>
+                                <div class="tx-3">5 023 900 ₽</div>
+                            </div>
+                        </div>
+                        <div class="tovar">
+                            <div>
+                                <img class="img13" title="2.png" src="img/png/2.png" alt="2.png">
+                            </div>
+                            <div class="txt">
+                                <div class="tx">Артикул</div><div class="tx1">0000001</div>
+                                <div class="tx-1">Название товара длинное в две строки наверное</div>
+                                <ul class="ul">
+                                    <li><img class="im" title="V1.svg" src="img/svg/V1.svg" alt="V1.svg">Размеры:<span class="value">12.3 x 14.6 x 4.3 м</span></li>
+                                    <li><img class="im" title="V2.svg" src="img/svg/V2.svg" alt="V2.svg">Площадь:<span class="value">33 м2</span></li>
+                                    <li><img class="im" title="V3.svg" src="img/svg/V3.svg" alt="V3.svg">Вместимость:<span class="value">15 чел</span></li>
+                                    <li><img class="im" title="V4.svg" src="img/svg/V4.svg" alt="V4.svg">Гарантия:<span class="value">10 лет</span></li>
+                                </ul>
+                                <button class="btn1">Купить</button>
+                                <img class="im1" title="Sales.svg" src="img/svg/Sales.svg" alt="Sales.svg">
+                                <div class="tx-2">6 127 500 ₽</div>
+                                <div class="tx-3">5 023 900 ₽</div>
+                            </div>
+                        </div>
+                        <div class="tovar">
+                            <div>
+                                <img class="img13" title="2.png" src="img/png/2.png" alt="2.png">
+                            </div>
+                            <div class="txt">
+                                <div class="tx">Артикул</div><div class="tx1">0000001</div>
+                                <div class="tx-1">Название товара длинное в две строки наверное</div>
+                                <ul class="ul">
+                                    <li><img class="im" title="V1.svg" src="img/svg/V1.svg" alt="V1.svg">Размеры:<span class="value">12.3 x 14.6 x 4.3 м</span></li>
+                                    <li><img class="im" title="V2.svg" src="img/svg/V2.svg" alt="V2.svg">Площадь:<span class="value">33 м2</span></li>
+                                    <li><img class="im" title="V3.svg" src="img/svg/V3.svg" alt="V3.svg">Вместимость:<span class="value">15 чел</span></li>
+                                    <li><img class="im" title="V4.svg" src="img/svg/V4.svg" alt="V4.svg">Гарантия:<span class="value">10 лет</span></li>
+                                </ul>
+                                <button class="btn1">Купить</button>
+                                <img class="im1" title="Sales.svg" src="img/svg/Sales.svg" alt="Sales.svg">
+                                <div class="tx-2">6 127 500 ₽</div>
+                                <div class="tx-3">5 023 900 ₽</div>
+                            </div>
+                        </div>
+                        <div class="tovar">
+                            <div>
+                                <img class="img13" title="2.png" src="img/png/2.png" alt="2.png">
+                            </div>
+                            <div class="txt">
+                                <div class="tx">Артикул</div><div class="tx1">0000001</div>
+                                <div class="tx-1">Название товара длинное в две строки наверное</div>
+                                <ul class="ul">
+                                    <li><img class="im" title="V1.svg" src="img/svg/V1.svg" alt="V1.svg">Размеры:<span class="value">12.3 x 14.6 x 4.3 м</span></li>
+                                    <li><img class="im" title="V2.svg" src="img/svg/V2.svg" alt="V2.svg">Площадь:<span class="value">33 м2</span></li>
+                                    <li><img class="im" title="V3.svg" src="img/svg/V3.svg" alt="V3.svg">Вместимость:<span class="value">15 чел</span></li>
+                                    <li><img class="im" title="V4.svg" src="img/svg/V4.svg" alt="V4.svg">Гарантия:<span class="value">10 лет</span></li>
+                                </ul>
+                                <button class="btn1">Купить</button>
+                                <img class="im1" title="Sales.svg" src="img/svg/Sales.svg" alt="Sales.svg">
+                                <div class="tx-2">6 127 500 ₽</div>
+                                <div class="tx-3">5 023 900 ₽</div>
+                            </div>
+                        </div>
+                        <div class="tovar">
+                            <div>
+                                <img class="img13" title="2.png" src="img/png/2.png" alt="2.png">
+                            </div>
+                            <div class="txt">
+                                <div class="tx">Артикул</div><div class="tx1">0000001</div>
+                                <div class="tx-1">Название товара длинное в две строки наверное</div>
+                                <ul class="ul">
+                                    <li><img class="im" title="V1.svg" src="img/svg/V1.svg" alt="V1.svg">Размеры:<span class="value">12.3 x 14.6 x 4.3 м</span></li>
+                                    <li><img class="im" title="V2.svg" src="img/svg/V2.svg" alt="V2.svg">Площадь:<span class="value">33 м2</span></li>
+                                    <li><img class="im" title="V3.svg" src="img/svg/V3.svg" alt="V3.svg">Вместимость:<span class="value">15 чел</span></li>
+                                    <li><img class="im" title="V4.svg" src="img/svg/V4.svg" alt="V4.svg">Гарантия:<span class="value">10 лет</span></li>
+                                </ul>
+                                <button class="btn1">Купить</button>
+                                <img class="im1" title="Sales.svg" src="img/svg/Sales.svg" alt="Sales.svg">
+                                <div class="tx-2">6 127 500 ₽</div>
+                                <div class="tx-3">5 023 900 ₽</div>
+                            </div>
+                        </div>
+                        <div class="tovar">
+                            <div>
+                                <img class="img13" title="2.png" src="img/png/2.png" alt="2.png">
+                            </div>
+                            <div class="txt">
+                                <div class="tx">Артикул</div><div class="tx1">0000001</div>
+                                <div class="tx-1">Название товара длинное в две строки наверное</div>
+                                <ul class="ul">
+                                    <li><img class="im" title="V1.svg" src="img/svg/V1.svg" alt="V1.svg">Размеры:<span class="value">12.3 x 14.6 x 4.3 м</span></li>
+                                    <li><img class="im" title="V2.svg" src="img/svg/V2.svg" alt="V2.svg">Площадь:<span class="value">33 м2</span></li>
+                                    <li><img class="im" title="V3.svg" src="img/svg/V3.svg" alt="V3.svg">Вместимость:<span class="value">15 чел</span></li>
+                                    <li><img class="im" title="V4.svg" src="img/svg/V4.svg" alt="V4.svg">Гарантия:<span class="value">10 лет</span></li>
+                                </ul>
+                                <button class="btn1">Купить</button>
+                                <img class="im1" title="Sales.svg" src="img/svg/Sales.svg" alt="Sales.svg">
+                                <div class="tx-2">6 127 500 ₽</div>
+                                <div class="tx-3">5 023 900 ₽</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tabs__content">2</div>
+                <div class="tabs__content">3</div>
+                <div class="tabs__content">4</div>
+                <div class="tabs__content">5</div>
+                <div class="tabs__content">6</div>
+            </div>
+        </div>
+
+        <!--Отзывы-->
+        <div class="otzivy">
+            <div class="grid-1">
+                <div></div>
+                <h2 class="naz4">Отзывы наших клиентов</h2>
+            </div>
+            <div class="otzivi">
+                <div></div>
+                <div class="otz">
+                    <div></div>
+                    <div class="otziv">
+                        <div class="ot1">
+                            <div>
+                                <div class="name">Алексей С.А.</div>
+                                <div class="data">28 июня 2021</div>
+                            </div>
+                            <div>
+                                <img class="star" title="Star.svg" src="img/svg/Star.svg" alt="Star.svg">
+                                <img class="star-1" title="Star.svg" src="img/svg/Star.svg" alt="Star.svg">
+                                <img class="star-1" title="Star.svg" src="img/svg/Star.svg" alt="Star.svg">
+                                <img class="star-1" title="Star.svg" src="img/svg/Star.svg" alt="Star.svg">
+                                <img class="star-1" title="Star.svg" src="img/svg/Star.svg" alt="Star.svg">
+                                <div class="oz">Общая оценка: (4,8)</div>
+                            </div>
+                            
+                        </div>
+                        <div class="ot2">
+                            <div class="o">«Цена хорошая, все соответствует ожиданиям. Подбирала перголу для своего участка. Также мне хотелось бы отметить вежливость работников компании, все подробно рассказали. Я считаю этот магазин отличным. И наверняка буду покупать снова или советовать коллегам.»</div>
+                            <a class="o1" href="#">Читать полностью</a>
+                        </div>
+                    </div>
+                    <div class="otziv">
+                        <div class="ot1">
+                            <div>
+                                <div class="name">Алексей С.А.</div>
+                                <div class="data">28 июня 2021</div>
+                            </div>
+                            <div>
+                                <img class="star" title="Star.svg" src="img/svg/Star.svg" alt="Star.svg">
+                                <img class="star-1" title="Star.svg" src="img/svg/Star.svg" alt="Star.svg">
+                                <img class="star-1" title="Star.svg" src="img/svg/Star.svg" alt="Star.svg">
+                                <img class="star-1" title="Star.svg" src="img/svg/Star.svg" alt="Star.svg">
+                                <img class="star-1" title="Star.svg" src="img/svg/Star.svg" alt="Star.svg">
+                                <div class="oz">Общая оценка: (4,8)</div>
+                            </div>
+                            
+                        </div>
+                        <div class="ot2">
+                            <div class="o">«Цена хорошая, все соответствует ожиданиям. Подбирала перголу для своего участка. Также мне хотелось бы отметить вежливость работников компании, все подробно рассказали. Я считаю этот магазин отличным. И наверняка буду покупать снова или советовать коллегам.»</div>
+                            <a class="o1" href="#">Читать полностью</a>
+                        </div>
+                    </div>
+                    <div class="otziv">
+                        <div class="ot1">
+                            <div>
+                                <div class="name">Алексей С.А.</div>
+                                <div class="data">28 июня 2021</div>
+                            </div>
+                            <div>
+                                <img class="star" title="Star.svg" src="img/svg/Star.svg" alt="Star.svg">
+                                <img class="star-1" title="Star.svg" src="img/svg/Star.svg" alt="Star.svg">
+                                <img class="star-1" title="Star.svg" src="img/svg/Star.svg" alt="Star.svg">
+                                <img class="star-1" title="Star.svg" src="img/svg/Star.svg" alt="Star.svg">
+                                <img class="star-1" title="Star.svg" src="img/svg/Star.svg" alt="Star.svg">
+                                <div class="oz">Общая оценка: (4,8)</div>
+                            </div>
+                            
+                        </div>
+                        <div class="ot2">
+                            <div class="o">«Цена хорошая, все соответствует ожиданиям. Подбирала перголу для своего участка. Также мне хотелось бы отметить вежливость работников компании, все подробно рассказали. Я считаю этот магазин отличным. И наверняка буду покупать снова или советовать коллегам.»</div>
+                            <a class="o1" href="#">Читать полностью</a>
+                        </div>
+                    </div>
+                <div>
+                    <button class="btn2">Открыть все отзывы</button>
+                </div>
+                </div>
+            </div>
+        </div>
+    
+        <!--О нас-->
+    <div class="infa">
+        <div class="odin">
+            <div class="one">Немного о нас</div>
+            <div>
+                <div class="on">Lorem ipsum dolor sit amet, consectetur adipiscing elit. At lacus integer nunc, ornare ipsum lorem nulla est. Augue eros adipiscing nec senectus duis nibh. In faucibus adipiscing tellus enim, consequat integer accumsan. Ultrices ipsum nulla consequat malesuada enim mollis est.</div>
+                <img id="image" class="z" title="12.svg" src="img/svg/12.svg" alt="12.svg">
+                <div class="tw">Lorem ipsum dolor sit amet, consectetur adipiscing elit. At lacus integer nunc, ornare ipsum lorem nulla est. Augue eros adipiscing nec senectus duis nibh. In faucibus adipiscing tellus enim, consequat integer accumsan. Ultrices ipsum nulla consequat malesuada enim mollis est. Venenatis, sagittis, amet ornare donec purus suscipit nam sodales. Varius sit amet nullam dictumst massa consequat odio faucibus.</div>
+                <div class="tr">Никита Данилов, Руководитель компании</div>
+            </div>
+        </div>
+        <div class="mj">
+            <img class="dva" title="3.png" src="img/png/3.png" alt="3.png">            
+        </div>
+        <!--Телефон-->
+        <div class="t-naz">Немного о нас</div>
+        <div class="t-img6">
+            <img title="t2.png" src="img/png/t2.png" alt="t2.png">
+        </div>
+        <div class="t-on">Lorem ipsum dolor sit amet, consectetur adipiscing elit. At lacus integer nunc, ornare ipsum lorem nulla est. Augue eros adipiscing nec senectus duis nibh. In faucibus adipiscing tellus enim, consequat integer accumsan. Ultrices ipsum nulla consequat malesuada enim mollis est.</div>
+        <div class="t-tw">
+            <div>
+                <img class="t-z" title="t6.svg" src="img/svg/t6.svg" alt="t6.svg">
+            </div>
+           <div class="t-tr">
+                <div class="t-tr1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. At lacus integer nunc, ornare ipsum lorem nulla est. Augue eros adipiscing nec senectus duis nibh. In faucibus adipiscing tellus enim, consequat integer accumsan. Ultrices ipsum nulla consequat malesuada enim mollis est. Venenatis, sagittis, amet ornare donec purus suscipit nam sodales. Varius sit amet nullam dictumst massa consequat odio faucibus.</div>
+                <div class="t-tr2">Никита Данилов, Руководитель компании</div>
+            </div> 
+        </div>
+        
+    </div>
+
+    <!--Статьи-->
+    <div class="statii">
+        <div class="naz5">Статьи, новости и обзоры</div>
+        <div class="st">
+            <div class="statiy">
+                <div>
+                    <img title="4.png" src="img/png/4.png" alt="4.png">
+                    <div class="x">Как выбрать беседку для дачи</div>
+                    <div class="x1">19 сентября 2021</div>
+                    <div class="x2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare felis faucibus turpis justo, ipsum sed sit. Nisl mauris adipiscing congue tortor bibendum condimentum sociis lorem. Nibh ut ornare nec est pharetra, tortor egestas quam non. Aenean felis sed mauris eu. Nisi pellentesque.</div>
+                    <a class="x3" href="#">Читать далее ></a>
+                </div>
+                <div>
+                    <img title="5.png" src="img/png/5.png" alt="5.png">
+                    <div class="x">Как выбрать беседку для дачи</div>
+                    <div class="x1">19 сентября 2021</div>
+                    <div class="x2">Дружная команда инженеров, наладчиков и мастеров высокого класса с большим вниманием и любовью относятся к своей работе.</div>
+                    <a class="x3" href="#">Читать далее ></a>
+                </div>
+            </div>
+            <div class="stati">
+                <div>
+                    <img title="5.png" src="img/png/5.png" alt="5.png">
+                    <div class="x">Как выбрать беседку для дачи</div>
+                    <div class="x1">19 сентября 2021</div>
+                    <div class="x2">Дружная команда инженеров, наладчиков и мастеров высокого класса с большим вниманием и любовью относятся к своей работе.</div>
+                    <a class="x3" href="#">Читать далее ></a>
+                </div>
+                <div>
+                    <img title="4.png" src="img/png/4.png" alt="4.png">
+                    <div class="x">Как выбрать беседку для дачи</div>
+                    <div class="x1">19 сентября 2021</div>
+                    <div class="x2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare felis faucibus turpis justo, ipsum sed sit. Nisl mauris adipiscing congue tortor bibendum condimentum sociis lorem. Nibh ut ornare nec est pharetra, tortor egestas quam non. Aenean felis sed mauris eu. Nisi pellentesque.</div>
+                    <a class="x3" href="#">Читать далее ></a>
+                </div>
+            </div>
+            <div class="statiy">
+                <div>
+                    <img title="4.png" src="img/png/4.png" alt="4.png">
+                    <div class="x">Как выбрать беседку для дачи</div>
+                    <div class="x1">19 сентября 2021</div>
+                    <div class="x2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare felis faucibus turpis justo, ipsum sed sit. Nisl mauris adipiscing congue tortor bibendum condimentum sociis lorem. Nibh ut ornare nec est pharetra, tortor egestas quam non. Aenean felis sed mauris eu. Nisi pellentesque.</div>
+                    <a class="x3" href="#">Читать далее ></a>
+                </div>
+                <div>
+                    <img title="5.png" src="img/png/5.png" alt="5.png">
+                    <div class="x">Как выбрать беседку для дачи</div>
+                    <div class="x1">19 сентября 2021</div>
+                    <div class="x2">Дружная команда инженеров, наладчиков и мастеров высокого класса с большим вниманием и любовью относятся к своей работе.</div>
+                    <a class="x3" href="#">Читать далее ></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Форма-->
+    <div class="forms">
+        <form class="mj">
+            <input class="input" type="text" placeholder="Имя" onchange="formValid()" id="i-1">
+            <input class="inpute-1" type="text" placeholder="Email" onchange="formValid()" id="i-3">
+            <button type="submit" id="send_message" disabled>Подписаться</button>
+            <div class="f">Хотите быть в курсе выгодных предложений, акций и новинок?</div>
+        </form>
+        <!--Телефон-->
+        <form class="mg">
+            <h2 class="t-f">Хотите быть в курсе выгодных предложений, акций и новинок?</h2>
+            <input class="t-input" type="text" placeholder="Имя" required maxlength="10" minlength="3">
+            <input class="t-input1" type="email" placeholder="Email" required>
+            <button type="submit">Подписаться</button>
+        </form>
+    </div>
+
+    <!--Подвал-->
+    <footer class="footer">
+        <div class="f1">
+            <div></div>
+            <div class="div">
+                <div class="text12">Наш адрес:</div>
+                <div class="text13">Москва, ул. Новокосимская д.7</div>
+                <a href="Main.html">
+                    <img class="rec3" title="3.svg" src="img/svg/3.svg" alt="3.svg">
+                    <img class="rec4" title="13.svg" src="img/svg/13.svg" alt="13.svg">
+                    <img class="rec4" title="5.svg" src="img/svg/5.svg" alt="5.svg">
+                    <div class="text11">Логотип вашего магазина</div>
+                </a>
+                
+            </div>
+            <div class="div">
+                <div class="text14">График работы:</div>
+                <div class="text15">Ежедневно с</div><div class="te">9:00</div><div class="te1">до</div><div class="te2">21:00</div>
+            </div>
+            <button class="btn3">Заказать звонок</button>
+            <div class="div"></div>
+        </div>
+        <div class="f1">
+            <div></div>
+            <div class="div">
+                <div class="containerr">
+                    <ul>
+                        <li class="li">Для покупателей:</li>
+                        <li class="li1"><a href="#">Доставка</a></li>
+                        <li class="li1"><a href="#">Гарантия</a></li>
+                        <li class="li1"><a href="#">Политика конфиденциальности</a></li>
+                        <li class="li1"><a href="#">Отзывы</a></li>
+                        <li class="li1"><a href="#">Наши работы</a></li>
+                    </ul>
+                    <ul>
+                        <li class="li2">О компании:</li>
+                        <li class="li3"><a href="#">О нас</a></li>
+                        <li class="li3"><a href="#">Доставка и оплата</a></li>
+                        <li class="li3"><a href="#">Наши работы</a></li>
+                        <li class="li3"><a href="#">Контакты</a></li>
+                        <li class="li3"><a href="#">Гарантия</a></li>
+                    </ul>
+                    <ul>
+                        <li class="li2">Категории:</li>
+                        <li class="li3"><a href="#">Беседки</a></li>
+                        <li class="li3"><a href="#">Бани</a></li>
+                        <li class="li3"><a href="#">Площадки</a></li>
+                        <li class="li3"><a href="#">Дома</a></li>
+                        <li class="li3"><a href="#">Перголы</a></li>
+                        <li class="li3"><a href="#">Бренды</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="div">
+                <div class="xt">Для регионов (звонок бесплатный)</div>
+                <div class="xt7">Для Москвы и Московской области</div>
+                <div class="xt1">8 (000)</div><div class="xt2">800-00-00</div>
+                <div class="xt8">Сообщить об ошибке на сайте</div>
+                <div class="xt3">8 (495)</div><div class="xt4">700-00-00</div>
+                <div class="xt5">Email: youremail@mailbox.ru</div>
+                <div class="xt6">Мы в соц.сетях:</div>
+                <a href="#"><img class="rec5" title="icon_whatsapp.svg" src="img/svg/icon_whatsapp.svg" alt="icon_whatsapp.svg"></a>
+                <a href="#"><img class="rec6" title="icon_youtube.svg" src="img/svg/icon_youtube.svg" alt="icon_youtube.svg"></a>
+                <a href="#"><img class="rec6" title="icon_instagram.svg" src="img/svg/icon_instagram.svg" alt="icon_instagram.svg"></a>
+                <div class="xt9">ООО</div><div class="xt10">"Фаза Групп"</div>
+                <div class="xt11">ИНН:</div><div class="xt12">7751140879</div>
+                <div class="xt13">ОРГН:</div><div class="xt14">1187746273461</div>
+            </div>
+            <div class="div"></div>
+        </div>
+        <div class="f1">
+            <div>
+            </div>
+            <div>
+                <div class="j">Публичная оферта</div>
+                <div class="j1">2013-2021 - Товары для дач, деревянные конструкции под любые нужды</div>
+            </div>
+            <div>
+                <div class="te3">Принимаем к оплате:</div>
+                <img class="v" title="VISA.svg" src="img/svg/VISA.svg" alt="VISA.svg">
+                <img class="v1" title="JCB.svg" src="img/svg/JCB.svg" alt="JCB.svg">
+                <img class="v2" title="MAESTRO.svg" src="img/svg/MAESTRO.svg" alt="MAESTRO.svg">
+                <img class="v3" title="MASTERCARD.svg" src="img/svg/MASTERCARD.svg" alt="MASTERCARD.svg">
+                <img class="v4" title="YANDEKS.svg" src="img/svg/YANDEKS.svg" alt="YANDEKS.svg">
+            </div>
+            <div>
+                <img class="mir" title="MIR.svg" src="img/svg/MIR.svg" alt="MIR.svg">
+            </div>
+        </div>
+        <!--Телефон-->
+        <div class="mg"></div>
+        <div class="t-div">
+            <a href="Main.html">
+                <div class="t-text">Логотип вашего магазина</div>
+                <img class="t-rec" title="t7.svg" src="img/svg/t7.svg" alt="t7.svg">
+                <img class="t-rec1" title="t8.svg" src="img/svg/t8.svg" alt="t8.svg">
+                <img class="t-rec2" title="t9.svg" src="img/svg/t9.svg" alt="t9.svg">           
+            </a>
+        </div>
+        <div class="mg"></div>
+        <div class="t-div">
+            <div class="t-text1">Email:</div>
+            <div class="t-text2">youremail@mailbox.ru</div>
+            <div class="t-text3">Мы в соц.сетях:</div>
+            <a class="t-text5" href="#">Сообщите об ошибке</a>
+            <a href="#"><img class="t-rec3" title="tWhat'sApp.svg" src="img/svg/tWhat'sApp.svg" alt="tWhat'sApp.svg"></a>
+            <a href="#"><img class="t-rec4" title="tYoutube.svg" src="img/svg/tYouTube.svg" alt="tYoutube.svg"></a>
+            <a href="#"><img class="t-rec5" title="tInstagram.svg" src="img/svg/tInstagram.svg" alt="tInstagram.svg"></a>
+        </div>
+        <div class="mg"></div>
+        <div class="mg">
+            <div class="xt9">ООО</div><div class="xt10">"Фаза Групп"</div>
+            <div class="xt11">ИНН:</div><div class="xt12">7751140879</div>
+            <div class="xt13">ОРГН:</div><div class="xt14">1187746273461</div>
+            <div class="t-text4">Принимаем к оплате:</div>
+            <img class="t-v3" title="tMASTERCARD.svg" src="img/svg/tMASTERCARD.svg" alt="tMASTERCARD.svg">
+            <img class="t-v4" title="tYANDEKS.svg" src="img/svg/tYANDEKS.svg" alt="tYANDEKS.svg">
+            <img class="t-v5" title="tMIR.svg" src="img/svg/tMIR.svg" alt="tMIR.svg">
+            <img class="t-v" title="tVISA.svg" src="img/svg/tVISA.svg" alt="tVISA.svg">
+            <img class="t-v1" title="tJCB.svg" src="img/svg/tJCB.svg" alt="tJCB.svg">
+            <img class="t-v2" title="tMAESTRO.svg" src="img/svg/tMAESTRO.svg" alt="tMAESTRO.svg">
+            <div class="j">Публичная оферта</div>
+            <div class="j1">2013-2021 - Товары для дач, деревянные конструкции под любые нужды</div>          
+        </div>
+    </footer>
+    
+    <div class="popup-window">	
+        <iframe width="1000" height="500" src="https://www.youtube.com/embed/IwpDzJE4fc8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="backpopup"></div>
+
+    <!--Кнопка прокрутки-->
+    <script src="js/Main.js"></script>
+    <a href="#" class="scrollup">Наверх</a>
+
+    <script src="js/Burger.js"></script>
+
+    <script src="js/Popup.js"></script>
+
+    <script src="js/Validation.js"></script>
+
+    <script src="js/Menu.js"></script>
+
+    </body>
+</html>
